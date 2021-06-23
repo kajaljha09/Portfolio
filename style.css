@@ -122,6 +122,41 @@
     color:rgb(66, 40, 40);
     background:none;
 }
+/* skills section */
+.title{
+    
+    margin:30px auto;
+    padding: auto;
+    text-align: center;
+    font-family: Ubuntu,sans-serif;
+    font-size: 50px;
+    position: relative;
+    transform:translateX(-50%)
+
+    
+    
+}
+
+.title::before{
+    position:absolute;
+    bottom:0px;
+    content:'';
+    border-bottom: 3px solid #000;
+    width:180px;
+    left:50%;
+    height:3px;
+    background:#111
+
+}
+.skills-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between
+}
+
+
  
 /* responsive media query start */
 
@@ -209,7 +244,9 @@
         font-size: 32px;
     }
     
-   
+   .title{
+       font-size: 30px;
+   }
 
 }
 @media (max-width:500px){
