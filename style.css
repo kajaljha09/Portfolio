@@ -126,12 +126,14 @@
 .title{
     
     margin:30px auto;
-    padding: auto;
+    padding: 20px;
     text-align: center;
     font-family: Ubuntu,sans-serif;
     font-size: 50px;
     position: relative;
-    transform:translateX(-50%)
+
+
+    
 
     
     
@@ -145,7 +147,8 @@
     width:180px;
     left:50%;
     height:3px;
-    background:#111
+    background:#111;
+    transform:translateX(-50%)
 
 }
 .skills-content{
